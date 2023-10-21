@@ -116,6 +116,8 @@ ul li a{
     background-color: rgba(15, 63, 15, 0.9);
     color: white;
     font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
