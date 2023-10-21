@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.logo{
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 35px;
+}
+.search input{
+    border: none;
+    border-radius:2px;
+    outline: none;
+    padding: 13px;
+    width: 400px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding-inline: 10px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    /* position: absolute; */
+    top: 37px;
+    z-index: 0;
+}
+/* leftbar */
+.left{
+    width: 25%;
+    background-color:tomato;
+    color: white;
+    margin-top:5px;
+    position:fixed;
+    height: 100vh;
+    left:7px;
+    top: 63px;
+}
+
+#form{
+  padding: 4px ;
+}
+
+#form input , textarea{
+    padding: 8px;
+    width: 98%;
+}
+#form label{
+    font-size: 19px;
+   
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border: none;
+   cursor: pointer;
+}
+
+
+/* right */
+.right{
+    width: 74%;
+    position: absolute;
+    right:0;
+    top: 63px;
+}
+.right::-webkit-scrollbar{
+    overflow: hidden;
+}
+
+.box{
+    width: 98%;
+    background-color: rgba(214, 75, 75, 0.808);
+    padding: 5px;
+    display: flex;
+    margin:5px 7px;
+    align-items: start;
+}
+
+#read{
+    float: right;
+    margin-right: 5px;
+    border: none;
+    padding: 10px;
+    background-color: rgba(15, 63, 15, 0.9);
+    color: white;
+    font-size: 15px;
+}
+
+
+
